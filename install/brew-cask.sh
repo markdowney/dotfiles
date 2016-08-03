@@ -29,7 +29,7 @@ apps=(
   slack
   spotify
   steam
-  sublime-text3
+  sublime-text
   torbrowser
   veracrypt
   virtualbox

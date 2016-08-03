@@ -15,7 +15,6 @@ apps=(
   coreutils           # Unix-like core utils
   cmake
   dockutil            # Manage dock
-  ethereum
   ffmpeg
   gifsicle            # make gifs
   git

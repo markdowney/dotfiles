@@ -13,6 +13,7 @@ packages=(
   http-server
   nodemon
   release-it
+  underscore-cli
 )
 
 npm install -g "${packages[@]}"
