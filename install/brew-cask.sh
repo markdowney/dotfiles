@@ -14,24 +14,21 @@ apps=(
   dropbox
   firefox
   flux
-  fontforge
   google-chrome
   google-chrome-canary
   google-drive
-  gopro
-  gopro-studio
   istat-menus
   iterm2
   macdown
   robomongo
   sequel-pro
+  sketch
   skype
   slack
   spotify
   steam
   sublime-text
   torbrowser
-  veracrypt
   virtualbox
   vlc
   wireshark

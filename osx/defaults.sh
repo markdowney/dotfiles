@@ -90,6 +90,9 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerHorizSwipeGesture -int 1
 # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 1
 
+# Increase trackpad speed
+defaults write com.apple.trackpad.scaling -float 3.0
+
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
@@ -227,6 +230,12 @@ defaults write com.apple.dock launchanim -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Set dock show/hide speed
+defaults write com.apple.dock autohide-time-modifier -float 0.12;
+
+# Set icon size
+defaults write com.apple.dock tilesize -int 48
+
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
@@ -271,11 +280,11 @@ defaults write com.apple.dock wvous-tr-corner -int 2
 defaults write com.apple.dock wvous-tr-modifier -int 0
 
 # Bottom left screen corner → Display to sleep
-defaults write com.apple.dock wvous-bl-corner -int 3
+defaults write com.apple.dock wvous-bl-corner -int 4
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # Bottom right screen corner
-defaults write com.apple.dock wvous-br-corner -int 4
+defaults write com.apple.dock wvous-br-corner -int 3
 defaults write com.apple.dock wvous-br-modifier -int 0
 
 ###############################################################################
