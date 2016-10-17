@@ -21,6 +21,7 @@ apps=(
   gnu-sed --with-default-names
   grep --with-default-names
   httpie              # command line http client
+  imagemagick
   mongodb
   mysql
   nmap
