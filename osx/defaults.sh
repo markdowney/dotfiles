@@ -230,8 +230,11 @@ defaults write com.apple.dock launchanim -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Kill delay before showing dock
+defaults write com.apple.dock autohide-delay -int 0
+
 # Set dock show/hide speed
-defaults write com.apple.dock autohide-time-modifier -float 0.12;
+defaults write com.apple.dock autohide-time-modifier -float 0.4;
 
 # Set icon size
 defaults write com.apple.dock tilesize -int 48

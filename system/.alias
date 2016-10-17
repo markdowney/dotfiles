@@ -50,6 +50,12 @@ alias cpwd='pwd|tr -d "\n"|pbcopy'
 
 alias rsync="rsync -vh"
 
+# github
+
+alias ga="git add ."
+alias gs="git status"
+alias gd="git diff"
+
 # npm
 
 alias ni="npm install"
