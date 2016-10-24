@@ -20,6 +20,7 @@ apps=(
   git
   gnu-sed --with-default-names
   grep --with-default-names
+  heroku-toolbelt
   httpie              # command line http client
   imagemagick
   mongodb

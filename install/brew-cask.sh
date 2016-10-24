@@ -30,6 +30,7 @@ apps=(
   steam
   sublime-text
   torbrowser
+  vagrant
   virtualbox
   vlc
   wireshark
